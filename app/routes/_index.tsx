@@ -123,36 +123,48 @@ export default function Index() {
             <div className="h-96 w-1/2 font-serif text-lime-800 mt-8 flex flex-col items-center">
               <h1 className="mt-24 text-center">Do you really know what a mountain is?.</h1>
                 <p className="text-2xl mt-9 mr-9 text-center">
-                  A mountain is a large landform that rises prominently above its surroundings and is characterized by its steep slopes, rugged terrain, and considerable elevation. Mountains are formed through various geological processes, such as tectonic activity, volcanic eruptions, or erosion.
+                  "A mountain is a large landform that rises prominently above its surroundings and is characterized by its steep slopes, rugged terrain, and considerable elevation. Mountains are formed through various geological processes, such as tectonic activity, volcanic eruptions, or erosion".
                 </p>
+                <p className="text-center mt-5">-ChatGPT</p>
             </div>
           </section>
 
           <section className="bg-[#cad2c5] inline justify-center items-center h-1/2 border-b-4 border-lime-800 text-lime-800 ">
-            <div className="text-center">
+            <div className="text-center font-serif">
               <h3 className="mt-14 mb-14">
                 The mountains in our home 🌍.
               </h3>
-              <h1 className="">
+              <h1 className="text-2xl">
                 Approximately 25% of the Earth's land surface is classified as mountainous terrain.
               </h1>
             </div>
             <div className="mt-14 mb-14 mx-auto text-center grid grid-cols-3 gap-4">
-            <div>
-              <h4 className="text-lg font-bold">Wildlife</h4>
-              <p>Descripción del enlace 1</p>
+              <div className="ml-14">
+                <img src="https://images.unsplash.com/photo-1480554840075-72cbdabbf689" alt="Animal" className="rounded-full w-40 h-40 mx-auto"/>
+                <h4 className="text-lg font-bold mt-10">Wildlife</h4>
+                <p className="mt-2 text-center">
+                  The wildlife found in mountains varies depending on the specific region and ecosystem.
+                  Wildlife in mountains has evolved to adapt to the unique challenges and opportunities presented by high-altitude environments. </p>
+              </div>
+
+            <div className="ml-14"> 
+              <img src="https://images.unsplash.com/photo-1418065460487-3e41a6c84dc5" alt="Animal" className="rounded-full w-40 h-40 mx-auto"/>
+              <h4 className="text-lg font-bold mt-10">Plant life</h4>
+                <p>
+                  Plant life in mountains exhibits a fascinating array of characteristics that enable them to thrive in the challenging and diverse environments 
+                  found at high altitudes. These characteristics have evolved over time in response to the unique conditions and ecological pressures present in mountainous regions.
+                </p>
             </div>
-            <div> 
-              <h4 className="text-lg font-bold">Plant life</h4>
-              <p>Descripción del enlace 2</p>
-            </div>
-            <div>
-              <h4 className="text-lg font-bold">Resources</h4>
-              <p>Descripción del enlace 3</p>
+
+            <div className="ml-14">
+              <img src="https://images.unsplash.com/photo-1567080586917-e6ab6aa0df85" alt="Animal" className="rounded-full w-40 h-40 mx-auto"/>
+              <h4 className="text-lg font-bold mt-10">Resources</h4>
+              <p>
+              The resources derived from mountains are diverse and play a crucial role in supporting human livelihoods, economies, and the overall functioning of ecosystems. Mountains are rich in various resources, including minerals, water, forests, and recreational opportunities. 
+              </p>
             </div>
           </div>
           </section>
-
     </main></>
   );
 }
