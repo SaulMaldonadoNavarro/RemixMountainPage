@@ -24,14 +24,14 @@ export function NavBar(){
         <Link to={'/stories'} className="hover:text-gray-400 transition-colors">
           Stories
         </Link>
-        <Link to={'/gallery'} className="hover:text-gray-400 transition-colors">
-          Gallery
+        <Link to={'/about'} className="hover:text-gray-400 transition-colors">
+          About
         </Link>
         <Link to={'/blog'} className="hover:text-gray-400 transition-colors">
           Blog
         </Link>
-        <Link to={'/about'} className="hover:text-gray-400 transition-colors">
-          About
+        <Link to={'/gallery'} className="hover:text-gray-400 transition-colors">
+          Gallery
         </Link>
         <Link to={'/contact'} className="hover:text-gray-400 transition-colors">
           Contact
